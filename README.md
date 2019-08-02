@@ -33,6 +33,10 @@
       $ python manage.py runserver 192.168.43.55:8080
       ```
 ## 3. Cài đặt môi trường React Native
+  - Các bước cài đặt bên dưới thực hiện theo hướng dẫn tại:
+    ```
+    https://medium.com/@devmrin/complete-how-to-create-react-native-app-with-genymotion-android-emulator-on-windows-10-in-10-3834fd90b074
+    ```
   ###### 3.1 Cài đặt Nodejs
     - Donwload vài cài đặt bản mới nhất cả Nodejs tại: https://nodejs.org/en/download/
   ###### 3.2 Cài đặt Android Studio
@@ -50,4 +54,9 @@
       ```
       npm install
       ```
-  
+   - Sau khi cài cài đặt xong các pakages tiến hành mở Genymotion và start máy ảo.
+   - Sau khi máy ảo start xong. Quay trở lại terminal của Visual code và chạy lệnh
+      ```
+      react-native run-android
+      ```
+   - Quá trình build app có thể gặp một số lỗi, trong trường hợp đó hãy thử chạy lại câu lệnh ở trên
