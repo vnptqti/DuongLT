@@ -60,3 +60,16 @@
       react-native run-android
       ```
    - Quá trình build app có thể gặp một số lỗi, trong trường hợp đó hãy thử chạy lại câu lệnh ở trên
+   
+ ## 4. Cài đặt môi trường WebApp
+  ###### 4.1 Cài đặt Visual Studio 2017
+    - Download và cài đặt Visual Studio 2017 tại : https://visualstudio.microsoft.com/vs/older-downloads/
+  ###### 4.2 Cài đặt MS SQL Server 2014
+    - Download và cài đặt MS SQL Server 2014 tại: https://www.microsoft.com/en-us/download/details.aspx?id=42299
+  ###### 4.2 Import database
+    - Tạo database có tên VoiceRecorder
+    - Tiến hành run file VoiceRecorder_DB_Scirpt.sql trong thư mục WebApp để import database
+  ###### 4.3 Deploy WebApp
+    - Mở Visual Studio và open solution VoiceRecorderServer trong thư mục WebApp
+    - Tiến hành publish Web site.
+    - Mở IIS và add new một website, trỏ Path vào thư mục Publish website ở trên.
