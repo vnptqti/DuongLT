@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>@ViewBag.Title</title>
+  @Styles.Render("~/Content/css")
+  @Scripts.Render("~/bundles/modernizr")
+  <style>
+    .customeNav {
+      background-color: #0984e3 !important;
+      border-color: #0984e3 !important;
+    }
+
+    .navbar-inverse .navbar-brand {
+      color: white !important;
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+      color: white !important;
+    }
+
+    footer {
+      text-align: center;
+    }
+  </style>
+  <script>
+    /// 1: Thành công, 2: Thông tin, 3: Cảnh báo, 4: Nguy hiểm
+    function PopupThongbao(loai, noidung, kichthuoc, timeout) {
+      $("#PopupThongbao i").removeClass("fa-check");
+      $("#PopupThongbao i").removeClass("fa-info");
+      $("#PopupThongbao i").removeClass("fa-warning");
+      $("#PopupThongbao i").removeClass("fa-ban");
+
+      $("#PopupThongbao #body").removeClass("alert-success");
+      $("#PopupThongbao #body").removeClass("alert-info");
+      $("#PopupThongbao #body").removeClass("alert-warning");
+      $("#PopupThongbao #body").removeClass("alert-danger");
+
+      if (loai == 1) {
+        $("#PopupThongbao i").addClass("fa-check");
+        $("#PopupThongbao #body").addClass("alert-success");
+      }
+      else if (loai == 2) {
+        $("#PopupThongbao i").addClass("fa-info");
+        $("#PopupThongbao #body").addClass("alert-info");
+      }
+      else if (loai == 3) {
+        $("#PopupThongbao i").addClass("fa-warning");
+        $("#PopupThongbao #body").addClass("alert-warning");
+      }
+      else if (loai == 4) {
+        $("#PopupThongbao i").addClass("fa-ban");
+        $("#PopupThongbao #body").addClass("alert-danger");
+      }
+
+      $("#lbThongbao").html(noidung);
+      $("#PopupThongbao #container").removeClass("modal-sm");
+      $("#PopupThongbao #container").removeClass("modal-md");
+      $("#PopupThongbao #container").removeClass("modal-lg");
+
+      $("#PopupThongbao #container").addClass("modal-" + kichthuoc);
+      $("#PopupThongbao").modal("show");
+      setTimeout(function () { $('#PopupThongbao').modal('hide'); }, timeout * 1000);
+    }
+  </script>
+</head>
+<body>
+  <div class="navbar navbar-inverse navbar-fixed-top customeNav">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        @Html.ActionLink("Voice Recorder", "", new { area = "" }, new { @class = "navbar-brand" })
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="linkCustom">@Html.ActionLink("Admin", "Index", "Admin")</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container body-content">
+    @RenderBody()
+    <hr />
+    @* modal thong bao start *@
+    <div class="modal" id="PopupThongbao" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div id="container" class="modal-dialog alert">
+        <div id="body" class="alert alert-dismissable">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+          <h4 class="modal-title"><i class="icon fa fa-warning"></i>Thông báo</h4>
+          <span id="lbThongbao"></span>
+        </div>
+      </div>
+    </div>
+    @* modal thong bao end *@
+    <footer>
+      <p>&copy; @DateTime.Now.Year - Voice Recorder</p>
+    </footer>
+  </div>
+
+  @Scripts.Render("~/bundles/jquery")
+  @*@Scripts.Render("~/bundles/bootstrap")*@
+  @RenderSection("scripts", required: false)
+</body>
+</html>

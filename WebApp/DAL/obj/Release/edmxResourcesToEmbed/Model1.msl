@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="VoiceRecorderModelStoreContainer" CdmEntityContainer="VoiceRecorderEntities">
+    <EntitySetMapping Name="TB_AGE_GROUP">
+      <EntityTypeMapping TypeName="VoiceRecorderModel.TB_AGE_GROUP">
+        <MappingFragment StoreEntitySet="TB_AGE_GROUP">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AGE_GROUP_ID" ColumnName="AGE_GROUP_ID" />
+          <ScalarProperty Name="AGE_GROUP_DESCRIPTION" ColumnName="AGE_GROUP_DESCRIPTION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_AREA">
+      <EntityTypeMapping TypeName="VoiceRecorderModel.TB_AREA">
+        <MappingFragment StoreEntitySet="TB_AREA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AREA_ID" ColumnName="AREA_ID" />
+          <ScalarProperty Name="AREA_DESCRIPTION" ColumnName="AREA_DESCRIPTION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_SCRIPT">
+      <EntityTypeMapping TypeName="VoiceRecorderModel.TB_SCRIPT">
+        <MappingFragment StoreEntitySet="TB_SCRIPT">
+          <ScalarProperty Name="SCRIPT_ID" ColumnName="SCRIPT_ID" />
+          <ScalarProperty Name="SCRIPT_DESCRITPTION" ColumnName="SCRIPT_DESCRITPTION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_SEX">
+      <EntityTypeMapping TypeName="VoiceRecorderModel.TB_SEX">
+        <MappingFragment StoreEntitySet="TB_SEX">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SEX_ID" ColumnName="SEX_ID" />
+          <ScalarProperty Name="SEX_DESCRIPTION" ColumnName="SEX_DESCRIPTION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_USER">
+      <EntityTypeMapping TypeName="VoiceRecorderModel.TB_USER">
+        <MappingFragment StoreEntitySet="TB_USER">
+          <ScalarProperty Name="USER_ID" ColumnName="USER_ID" />
+          <ScalarProperty Name="USER_NAME" ColumnName="USER_NAME" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="V_File">
+      <EntityTypeMapping TypeName="VoiceRecorderModel.V_File">
+        <MappingFragment StoreEntitySet="V_File">
+          <ScalarProperty Name="FILE_NAME" ColumnName="FILE_NAME" />
+          <ScalarProperty Name="FILE_LOCATION" ColumnName="FILE_LOCATION" />
+          <ScalarProperty Name="SEX_DESCRIPTION" ColumnName="SEX_DESCRIPTION" />
+          <ScalarProperty Name="SCRIPT_ID" ColumnName="SCRIPT_ID" />
+          <ScalarProperty Name="SCRIPT_DESCRITPTION" ColumnName="SCRIPT_DESCRITPTION" />
+          <ScalarProperty Name="AREA_DESCRIPTION" ColumnName="AREA_DESCRIPTION" />
+          <ScalarProperty Name="AGE_GROUP_DESCRIPTION" ColumnName="AGE_GROUP_DESCRIPTION" />
+          <ScalarProperty Name="USER_NAME" ColumnName="USER_NAME" />
+          <ScalarProperty Name="FILE_ID" ColumnName="FILE_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_USER_SCRIPT">
+      <EntityTypeMapping TypeName="VoiceRecorderModel.TB_USER_SCRIPT">
+        <MappingFragment StoreEntitySet="TB_USER_SCRIPT">
+          <ScalarProperty Name="SNR" ColumnName="SNR" />
+          <ScalarProperty Name="VOTE_BAD" ColumnName="VOTE_BAD" />
+          <ScalarProperty Name="VOTE_GOOD" ColumnName="VOTE_GOOD" />
+          <ScalarProperty Name="SCRIPT_DESCRITPTION" ColumnName="SCRIPT_DESCRITPTION" />
+          <ScalarProperty Name="STT" ColumnName="STT" />
+          <ScalarProperty Name="IS_READ" ColumnName="IS_READ" />
+          <ScalarProperty Name="SCRIPT_ID" ColumnName="SCRIPT_ID" />
+          <ScalarProperty Name="USER_NAME" ColumnName="USER_NAME" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_FILE">
+      <EntityTypeMapping TypeName="VoiceRecorderModel.TB_FILE">
+        <MappingFragment StoreEntitySet="TB_FILE">
+          <ScalarProperty Name="SNR" ColumnName="SNR" />
+          <ScalarProperty Name="VOTE_BAD" ColumnName="VOTE_BAD" />
+          <ScalarProperty Name="VOTE_GOOD" ColumnName="VOTE_GOOD" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="SEX_ID" ColumnName="SEX_ID" />
+          <ScalarProperty Name="AREA_ID" ColumnName="AREA_ID" />
+          <ScalarProperty Name="AGE_GROUP_ID" ColumnName="AGE_GROUP_ID" />
+          <ScalarProperty Name="USER_ID" ColumnName="USER_ID" />
+          <ScalarProperty Name="SCRIPT_ID" ColumnName="SCRIPT_ID" />
+          <ScalarProperty Name="FILE_LOCATION" ColumnName="FILE_LOCATION" />
+          <ScalarProperty Name="FILE_NAME" ColumnName="FILE_NAME" />
+          <ScalarProperty Name="FILE_ID" ColumnName="FILE_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="VoiceRecorderModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="TB_AGE_GROUP">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="AGE_GROUP_ID" Type="int" Nullable="false" />
+          <Property Name="AGE_GROUP_DESCRIPTION" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="TB_AREA">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="AREA_ID" Type="int" Nullable="false" />
+          <Property Name="AREA_DESCRIPTION" Type="nvarchar" MaxLength="250" />
+        </EntityType>
+        <EntityType Name="TB_FILE">
+          <Key>
+            <PropertyRef Name="FILE_ID" />
+          </Key>
+          <Property Name="FILE_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FILE_NAME" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="FILE_LOCATION" Type="nvarchar" MaxLength="300" Nullable="false" />
+          <Property Name="SCRIPT_ID" Type="int" Nullable="false" />
+          <Property Name="USER_ID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TB_SCRIPT">
+          <Key>
+            <PropertyRef Name="SCRIPT_ID" />
+          </Key>
+          <Property Name="SCRIPT_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="SCRIPT_DESCRITPTION" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="TB_SEX">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="SEX_ID" Type="int" Nullable="false" />
+          <Property Name="SEX_DESCRIPTION" Type="nchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="TB_USER">
+          <Key>
+            <PropertyRef Name="USER_ID" />
+          </Key>
+          <Property Name="USER_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="USER_NAME" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="EMAIL" Type="nvarchar" MaxLength="255" />
+          <Property Name="PASSWORD" Type="nvarchar" MaxLength="255" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="VoiceRecorderModelStoreContainer">
+          <EntitySet Name="TB_AGE_GROUP" EntityType="Self.TB_AGE_GROUP" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TB_AREA" EntityType="Self.TB_AREA" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TB_FILE" EntityType="Self.TB_FILE" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TB_SCRIPT" EntityType="Self.TB_SCRIPT" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TB_SEX" EntityType="Self.TB_SEX" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TB_USER" EntityType="Self.TB_USER" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="VoiceRecorderModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="TB_AGE_GROUP">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AGE_GROUP_ID" Type="Int32" Nullable="false" />
+          <Property Name="AGE_GROUP_DESCRIPTION" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TB_AREA">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AREA_ID" Type="Int32" Nullable="false" />
+          <Property Name="AREA_DESCRIPTION" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TB_FILE">
+          <Key>
+            <PropertyRef Name="FILE_ID" />
+          </Key>
+          <Property Name="FILE_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FILE_NAME" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="FILE_LOCATION" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="SCRIPT_ID" Type="Int32" Nullable="false" />
+          <Property Name="USER_ID" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TB_SCRIPT">
+          <Key>
+            <PropertyRef Name="SCRIPT_ID" />
+          </Key>
+          <Property Name="SCRIPT_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SCRIPT_DESCRITPTION" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TB_SEX">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SEX_ID" Type="Int32" Nullable="false" />
+          <Property Name="SEX_DESCRIPTION" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TB_USER">
+          <Key>
+            <PropertyRef Name="USER_ID" />
+          </Key>
+          <Property Name="USER_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="USER_NAME" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="EMAIL" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="PASSWORD" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="VoiceRecorderEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="TB_AGE_GROUP" EntityType="Self.TB_AGE_GROUP" />
+          <EntitySet Name="TB_AREA" EntityType="Self.TB_AREA" />
+          <EntitySet Name="TB_FILE" EntityType="Self.TB_FILE" />
+          <EntitySet Name="TB_SCRIPT" EntityType="Self.TB_SCRIPT" />
+          <EntitySet Name="TB_SEX" EntityType="Self.TB_SEX" />
+          <EntitySet Name="TB_USER" EntityType="Self.TB_USER" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="VoiceRecorderModelStoreContainer" CdmEntityContainer="VoiceRecorderEntities">
+          <EntitySetMapping Name="TB_AGE_GROUP">
+            <EntityTypeMapping TypeName="VoiceRecorderModel.TB_AGE_GROUP">
+              <MappingFragment StoreEntitySet="TB_AGE_GROUP">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="AGE_GROUP_ID" ColumnName="AGE_GROUP_ID" />
+                <ScalarProperty Name="AGE_GROUP_DESCRIPTION" ColumnName="AGE_GROUP_DESCRIPTION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TB_AREA">
+            <EntityTypeMapping TypeName="VoiceRecorderModel.TB_AREA">
+              <MappingFragment StoreEntitySet="TB_AREA">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="AREA_ID" ColumnName="AREA_ID" />
+                <ScalarProperty Name="AREA_DESCRIPTION" ColumnName="AREA_DESCRIPTION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TB_FILE">
+            <EntityTypeMapping TypeName="VoiceRecorderModel.TB_FILE">
+              <MappingFragment StoreEntitySet="TB_FILE">
+                <ScalarProperty Name="FILE_ID" ColumnName="FILE_ID" />
+                <ScalarProperty Name="FILE_NAME" ColumnName="FILE_NAME" />
+                <ScalarProperty Name="FILE_LOCATION" ColumnName="FILE_LOCATION" />
+                <ScalarProperty Name="SCRIPT_ID" ColumnName="SCRIPT_ID" />
+                <ScalarProperty Name="USER_ID" ColumnName="USER_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TB_SCRIPT">
+            <EntityTypeMapping TypeName="VoiceRecorderModel.TB_SCRIPT">
+              <MappingFragment StoreEntitySet="TB_SCRIPT">
+                <ScalarProperty Name="SCRIPT_ID" ColumnName="SCRIPT_ID" />
+                <ScalarProperty Name="SCRIPT_DESCRITPTION" ColumnName="SCRIPT_DESCRITPTION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TB_SEX">
+            <EntityTypeMapping TypeName="VoiceRecorderModel.TB_SEX">
+              <MappingFragment StoreEntitySet="TB_SEX">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="SEX_ID" ColumnName="SEX_ID" />
+                <ScalarProperty Name="SEX_DESCRIPTION" ColumnName="SEX_DESCRIPTION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TB_USER">
+            <EntityTypeMapping TypeName="VoiceRecorderModel.TB_USER">
+              <MappingFragment StoreEntitySet="TB_USER">
+                <ScalarProperty Name="USER_ID" ColumnName="USER_ID" />
+                <ScalarProperty Name="USER_NAME" ColumnName="USER_NAME" />
+                <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+                <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,40 @@
+﻿#recordingslist audio {
+    display: block;
+    margin-bottom: 10px;
+}
+ul {
+    list-style: none;
+}
+.panel-body{
+    text-align:center !important;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+.lbGhiChu{
+    font-weight:initial;
+    font-size: 14px;
+}
+#lbScriptDes{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+#recordButton, #stopButton {
+    width: 95px;
+}
+#recordingsList{
+    margin-top: 20px;
+}
+ol {
+    list-style-type: none;
+}
+li {
+    display:inline-flex;
+    flex-direction:row;
+    align-items:center;
+}
+#btnOpenModal{
+    margin-left:20px;
+}
+.require{
+    color:red;
+}

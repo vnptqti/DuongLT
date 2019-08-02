@@ -1,0 +1,416 @@
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\ApplicationInsights.config
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\VoiceRecorderServer.dll.config
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\VoiceRecorderServer.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\VoiceRecorderServer.pdb
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\csc.exe
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\csc.exe.config
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\csc.rsp
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\csi.exe
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\csi.exe.config
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\csi.rsp
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.AppContext.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Collections.Immutable.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Console.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Diagnostics.Process.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.IO.Compression.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.IO.FileSystem.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.IO.Pipes.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Reflection.Metadata.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Security.AccessControl.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Security.Claims.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Security.Principal.Windows.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Threading.Thread.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.ValueTuple.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Xml.XmlDocument.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Xml.XPath.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\vbc.exe
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\vbc.exe.config
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\vbc.rsp
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\VBCSCompiler.exe
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\VBCSCompiler.exe.config
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\Antlr3.Runtime.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.AI.Agent.Intercept.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.AI.DependencyCollector.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.AI.Web.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.AI.WindowsServer.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.ApplicationInsights.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.Web.Infrastructure.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\Newtonsoft.Json.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\System.Diagnostics.DiagnosticSource.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\System.Net.Http.Formatting.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.Helpers.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.Http.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.Http.WebHost.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.Mvc.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.Optimization.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.Razor.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.WebPages.Deployment.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.WebPages.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.WebPages.Razor.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\WebGrease.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.Helpers.xml
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.Mvc.xml
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.Optimization.xml
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.Razor.xml
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.WebPages.xml
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.WebPages.Deployment.xml
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.WebPages.Razor.xml
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\Newtonsoft.Json.xml
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\Antlr3.Runtime.pdb
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\System.Net.Http.Formatting.xml
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.Http.xml
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.Http.WebHost.xml
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\System.Diagnostics.DiagnosticSource.xml
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.AI.DependencyCollector.xml
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.AI.WindowsServer.xml
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.AI.Web.xml
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\obj\Release\VoiceRecorderServer.csprojAssemblyReference.cache
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\obj\Release\VoiceRecorderServer.csproj.CoreCompileInputs.cache
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\obj\Release\VoiceRecorderServer.csproj.CopyComplete
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\obj\Release\VoiceRecorderServer.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\obj\Release\VoiceRecorderServer.pdb
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\ApplicationInsights.config
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\VoiceRecorderServer.dll.config
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\VoiceRecorderServer.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\VoiceRecorderServer.pdb
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\csc.exe
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\csc.exe.config
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\csc.rsp
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\csi.exe
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\csi.exe.config
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\csi.rsp
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.AppContext.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Collections.Immutable.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Console.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Diagnostics.Process.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.IO.Compression.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.IO.FileSystem.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.IO.Pipes.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Reflection.Metadata.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Security.AccessControl.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Security.Claims.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Security.Principal.Windows.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Threading.Thread.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.ValueTuple.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Xml.XmlDocument.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Xml.XPath.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\vbc.exe
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\vbc.exe.config
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\vbc.rsp
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\VBCSCompiler.exe
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\roslyn\VBCSCompiler.exe.config
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\Antlr3.Runtime.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.AI.Agent.Intercept.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.AI.DependencyCollector.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.AI.Web.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.AI.WindowsServer.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.ApplicationInsights.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.Web.Infrastructure.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\Newtonsoft.Json.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\System.Diagnostics.DiagnosticSource.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\System.Net.Http.Formatting.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.Helpers.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.Http.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.Http.WebHost.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.Mvc.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.Optimization.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.Razor.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.WebPages.Deployment.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.WebPages.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.WebPages.Razor.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\WebGrease.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.Helpers.xml
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.Mvc.xml
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.Optimization.xml
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.Razor.xml
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.WebPages.xml
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.WebPages.Deployment.xml
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.WebPages.Razor.xml
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\Newtonsoft.Json.xml
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\Antlr3.Runtime.pdb
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\System.Net.Http.Formatting.xml
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.Http.xml
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\System.Web.Http.WebHost.xml
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\System.Diagnostics.DiagnosticSource.xml
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.AI.DependencyCollector.xml
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.AI.WindowsServer.xml
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.AI.Web.xml
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\obj\Release\VoiceRecorderServer.csprojAssemblyReference.cache
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\obj\Release\VoiceRecorderServer.csproj.CoreCompileInputs.cache
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\obj\Release\VoiceRecorderServer.csproj.CopyComplete
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\obj\Release\VoiceRecorderServer.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\obj\Release\VoiceRecorderServer.pdb
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\DAL.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\EntityFramework.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\DAL.pdb
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\DAL.dll.config
+D:\11.VNPT\ADuong\VoiceRecorderServer\VoiceRecorderServer\bin\EntityFramework.xml
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\DAL.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\EntityFramework.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\DAL.pdb
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\DAL.dll.config
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\VoiceRecorderServer\bin\EntityFramework.xml
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\System.IO.Compression.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\VBCSCompiler.exe
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\ApplicationInsights.config
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\VoiceRecorderServer.dll.config
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\VoiceRecorderServer.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\VoiceRecorderServer.pdb
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\csc.exe
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\csc.exe.config
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\csc.rsp
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\csi.exe
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\csi.exe.config
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\csi.rsp
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\System.AppContext.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Collections.Immutable.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Console.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Diagnostics.Process.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\System.IO.Compression.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\System.IO.FileSystem.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\System.IO.Pipes.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Reflection.Metadata.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Security.AccessControl.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Security.Claims.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Security.Principal.Windows.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Threading.Thread.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\System.ValueTuple.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Xml.XmlDocument.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Xml.XPath.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\vbc.exe
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\vbc.exe.config
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\vbc.rsp
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\VBCSCompiler.exe
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\roslyn\VBCSCompiler.exe.config
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\Antlr3.Runtime.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\DAL.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\Microsoft.AI.Agent.Intercept.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\Microsoft.AI.DependencyCollector.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\Microsoft.AI.Web.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\Microsoft.AI.WindowsServer.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\Microsoft.ApplicationInsights.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\Microsoft.Web.Infrastructure.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\Newtonsoft.Json.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\System.Diagnostics.DiagnosticSource.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\System.Net.Http.Formatting.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\System.Web.Helpers.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\System.Web.Http.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\System.Web.Http.WebHost.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\System.Web.Mvc.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\System.Web.Optimization.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\System.Web.Razor.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\System.Web.WebPages.Deployment.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\System.Web.WebPages.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\System.Web.WebPages.Razor.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\WebGrease.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\EntityFramework.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\DAL.pdb
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\DAL.dll.config
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\System.Web.Helpers.xml
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\System.Web.Mvc.xml
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\System.Web.Optimization.xml
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\System.Web.Razor.xml
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\System.Web.WebPages.xml
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\System.Web.WebPages.Deployment.xml
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\System.Web.WebPages.Razor.xml
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\Newtonsoft.Json.xml
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\Antlr3.Runtime.pdb
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\System.Net.Http.Formatting.xml
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\System.Web.Http.xml
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\System.Web.Http.WebHost.xml
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\System.Diagnostics.DiagnosticSource.xml
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\Microsoft.AI.DependencyCollector.xml
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\Microsoft.AI.WindowsServer.xml
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\Microsoft.AI.Web.xml
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\bin\EntityFramework.xml
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\obj\Release\VoiceRecorderServer.csproj.CoreCompileInputs.cache
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\obj\Release\VoiceRecorderServer.csproj.CopyComplete
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\obj\Release\VoiceRecorderServer.dll
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\obj\Release\VoiceRecorderServer.pdb
+D:\11.VNPT\ADuong\00.SVN\VoiceRecorderServer\obj\Release\VoiceRecorderServer.csprojAssemblyReference.cache
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\ApplicationInsights.config
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\VoiceRecorderServer.dll.config
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\VoiceRecorderServer.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\VoiceRecorderServer.pdb
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\csc.exe
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\csc.exe.config
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\csc.rsp
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\csi.exe
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\csi.exe.config
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\csi.rsp
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\System.AppContext.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Console.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Diagnostics.Process.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\System.IO.Pipes.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Reflection.Metadata.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Security.AccessControl.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Security.Claims.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Security.Principal.Windows.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Threading.Thread.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\System.ValueTuple.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Xml.XmlDocument.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Xml.XPath.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\vbc.exe
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\vbc.exe.config
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\vbc.rsp
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\VBCSCompiler.exe.config
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\Antlr3.Runtime.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\DAL.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\Microsoft.AI.Agent.Intercept.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\Microsoft.AI.DependencyCollector.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\Microsoft.AI.Web.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\Microsoft.AI.WindowsServer.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\Microsoft.ApplicationInsights.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\Microsoft.Web.Infrastructure.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\Newtonsoft.Json.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\System.Diagnostics.DiagnosticSource.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\System.Net.Http.Formatting.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\System.Web.Helpers.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\System.Web.Http.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\System.Web.Http.WebHost.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\System.Web.Mvc.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\System.Web.Optimization.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\System.Web.Razor.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\System.Web.WebPages.Deployment.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\System.Web.WebPages.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\System.Web.WebPages.Razor.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\WebGrease.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\EntityFramework.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\DAL.pdb
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\DAL.dll.config
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\System.Web.Helpers.xml
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\System.Web.Mvc.xml
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\System.Web.Optimization.xml
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\System.Web.Razor.xml
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\System.Web.WebPages.xml
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\System.Web.WebPages.Deployment.xml
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\System.Web.WebPages.Razor.xml
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\Newtonsoft.Json.xml
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\Antlr3.Runtime.pdb
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\System.Net.Http.Formatting.xml
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\System.Web.Http.xml
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\System.Web.Http.WebHost.xml
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\System.Diagnostics.DiagnosticSource.xml
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\Microsoft.AI.DependencyCollector.xml
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\Microsoft.AI.WindowsServer.xml
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\Microsoft.AI.Web.xml
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\EntityFramework.xml
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\obj\Release\VoiceRecorderServer.csprojAssemblyReference.cache
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\obj\Release\VoiceRecorderServer.csproj.CoreCompileInputs.cache
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\obj\Release\VoiceRecorderServer.csproj.CopyComplete
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\obj\Release\VoiceRecorderServer.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\obj\Release\VoiceRecorderServer.pdb
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\System.Collections.Immutable.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\System.IO.FileSystem.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\VoiceRecorderServer\bin\roslyn\System.IO.FileSystem.Primitives.dll

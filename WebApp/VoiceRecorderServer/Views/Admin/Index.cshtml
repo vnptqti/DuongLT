@@ -1,0 +1,222 @@
+﻿@{
+  ViewBag.Title = "Voice Recorder";
+}
+<link href="~/Content/Home.css" rel="stylesheet" />
+<link href="~/Scripts/bootgrid/jquery.bootgrid.min.css" rel="stylesheet" />
+<link href="~/Scripts/bootgrid/bootgridMix.css" rel="stylesheet" />
+@Styles.Render("~/Content/Home.css")
+@Styles.Render("~/Content/Home.css")
+
+@section Scripts {
+  @Scripts.Render("~/Scripts/jquery-3.3.1.min.js")
+  @Scripts.Render("~/Scripts/bootstrap.min.js")
+  @Scripts.Render("~/Scripts/bootgrid/jquery.bootgrid.min.js")
+  @Scripts.Render("~/Scripts/bootgrid/jquery.bootgrid.lang.js")
+  <script>
+    var isExitbootgrid = false;
+    var i = 0;
+    var globalScriptId = 0
+    $(document).ready(function () {
+      WriteDropdown($('#drrEmail'), 1, "../../api/Admin/GetEmailDropdown", "Tất cả");
+      $("#drrEmail").change(function () {
+        loadGrid();
+      });
+      loadGrid();
+    });
+
+    function loadGrid() {
+      var thisUrl = "../../api/Admin/GetDanhSachFile";
+      if (isExitbootgrid == false) {
+        var grid = $("#gridFile");
+        grid.show();
+        grid.bootgrid({
+          labels: langGrid,
+          ajax: true,
+          rowCount: [50, 100, 150, -1],
+          keepSelection: true,
+          ajaxSettings: {
+            method: "POST",
+            contentType: "application/json"
+          },
+          requestHandler: function (request) {
+            var model = {};
+            model.Email = $('#drrEmail :selected').val();
+            model.Current = request.current;
+            model.RowCount = request.rowCount;
+            model.Search = $('.search-field').val();
+            return JSON.stringify(model);
+          },
+          url: thisUrl,
+          rowSelect: true,
+          keepSelection: true,
+          formatters: {
+            "STT": function (column, row) {
+              var tam = grid.bootgrid("getRowCount") * (grid.bootgrid("getCurrentPage") - 1);
+              i++;
+              return i + tam;
+
+            },
+            "SCRIPT_DESCRITPTION": function (column, row) {
+              if (globalScriptId == row.SCRIPT_ID) {
+                return "<span style='color:#e74c3c'><b>"+row.SCRIPT_DESCRITPTION+"</b></span>"
+              }
+              globalScriptId = row.SCRIPT_ID;
+              return row.SCRIPT_DESCRITPTION;
+            },
+            "PLAY": function (column, row) {
+              return "<audio controls preload='none'><source src='@Url.Action("PlayFile")?fileName=" + row.FILE_NAME + "' type='audio/wav'></audio>";
+            },
+            "CONG_CU": function (column, row) {
+              if (globalScriptId == row.SCRIPT_ID) {
+
+              }
+              globalScriptId = row.SCRIPT_ID;
+              var a = row.FILE_NAME
+              var newLink =
+                '<a href="@Url.Action("Download")?fileName=' + row.FILE_NAME + '">Download</a>&nbsp;' +
+                '<a href="#" class="btn btn - danger btn - xs" onclick="confirmDeleteRecord(' + row.FILE_ID + '); " data-toggle="tooltip" data-placement="right" title="Xóa bản ghi">Delete</a>';
+              return newLink;
+            }
+          }
+        }).on("load.rs.jquery.bootgrid", function (e) {
+          i = 0;
+        }).on("loaded.rs.jquery.bootgrid", function () {
+          $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+        });
+
+        $(".pull-left").find("button").hide();
+
+        // An nut them moi, o tim kiem tren Grid
+        var k = $(".infoBar").html();
+        $(".pull-left").find("button").addClass("btn btn-primary");
+        //  $(".actionBar").find(".input-group").hide();
+        //$(".actionBar").find(".pull-left").append(k);
+        //$(".infoBar").html("")
+        isExitbootgrid = true;
+      }
+      else {
+        i = 0;
+        $("#gridFile").bootgrid("reload");
+      }
+    }
+
+    function deleteRecord() {
+      var recordId = $('#hidRecordId').val();
+      $.ajax({
+        url: "../../api/Admin/DeleteRecord/" + recordId,
+        type: 'GET',
+        contentType: 'application/json; charset=utf-8',
+        dataType: 'json',
+        success: function (response) {
+          if (response == 1) {
+            PopupThongbao(1, "Xóa thành công", "sm", 3);
+            loadGrid();
+          } else {
+            PopupThongbao(4, "Có lỗi xảy ra. Vui lòng thử lại.", "sm", 3);
+          }
+        }
+      });
+    }
+
+    function confirmDeleteRecord(id) {
+
+      $('#hidRecordId').val(id);
+      $('#modalConfirmDelete').modal('show');
+    }
+
+    function downloadZip() {
+      var email = $('#drrEmail :selected').val();
+      $(location).attr('href', '@Url.Action("DownloadZip")?email=' + email + '');
+     // $.get('@Url.Action("DownloadZip")?email=' + email + '');
+    }
+
+    function downloadFile(fileName) {
+      $.get('@Url.Action("Admin", "Download")', {fileName : fileName});
+    }
+
+    function WriteDropdown(drCB, selectid, duongdan, str) {
+      drCB.empty();
+      $.ajax({
+        type: "GET",
+        contentType: "application/json; charset=utf-8",
+        url: duongdan,
+        dataType: "json",
+        async: true,
+        success: function (Result) {
+          Result = Result
+          //drCB.append($("<option></option>").val(-1).html(str));
+          $.each(Result, function (key, value) {
+            drCB.append("<option value='" + value.Value + "'>" + value.Name + "</option>");
+          });
+
+          drCB.val('anpt.qti@gmail.com').trigger('change');
+        },
+        error: function (Result) {
+        }
+      });
+    }
+  </script>
+}
+<input type="hidden" id="hidRecordId" />
+<div class="row form-group panel-body">
+  <div class="row form-group">
+    <div class="col-md-12">
+      <div id="mainMsg" style="display: none;" class="alert alert-info alert-dismissable">
+        <button type="button" class="close" onclick="$('#mainMsg').hide(); return false;" aria-hidden="true">×</button>
+        <span id="mainMsgContent">!</span>
+      </div>
+    </div>
+  </div>
+  <div class="row form-group">
+    <div class="col-md-3 text-left">
+      <label class="control-label">Email</label>
+      <select class="form-control" name="drrEmail" id="drrEmail"></select>
+
+    </div>
+    <div class="col-md-2 text-left">
+      <label class="control-label">&nbsp;</label>
+      <input type="button" id="btnDownloadZip" onclick="return downloadZip();" class="form-control btn btn-primary" value="Download Zip" />
+    </div>
+  </div>
+  <div class="row form-group">
+    <div class="col-md-12">
+      <div id="controls">
+        <table id="gridFile" class="grid table table-bordered table-striped jambo_table bulk_action">
+          <thead>
+            <tr>
+              <th data-column-id="STT" data-formatter="STT" data-header-align="center" data-align="center" data-width="50px">STT</th>
+              <th data-column-id="USER_NAME" data-formatter="USER_NAME" data-width="180px">Email</th>
+              <th data-column-id="AGE_GROUP_DESCRIPTION" data-align="center" data-header-align="center" data-width="60px" data-formatter="AGE_GROUP_DESCRIPTION" data-width="100px">Tuổi</th>
+              <th data-column-id="SEX_DESCRIPTION" data-align="center" data-header-align="center" data-width="80px" data-formatter="SEX_DESCRIPTION">Giới tính</th>
+              <th data-column-id="AREA_DESCRIPTION" data-align="center" data-formatter="AREA_DESCRIPTION" data-width="110px" data-header-align="center">Vùng miền</th>
+              <th data-column-id="SCRIPT_DESCRITPTION" data-formatter="SCRIPT_DESCRITPTION" data-width="300px">Script</th>
+              <th data-column-id="PLAY" data-formatter="PLAY" data-align="center" data-header-align="center" data-css-class="hidden-xs" data-header-css-class="hidden-xs hidden-sm" data-width="300px">Play</th>
+              <th data-column-id="CONG_CU" data-formatter="CONG_CU" data-align="center" data-header-align="center" data-css-class="hidden-xs" data-header-css-class="hidden-xs hidden-sm" data-width="90px">Công cụ</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  @* modal *@
+  <div class="modal fade modalConfirm" tabindex="-1" role="dialog" aria-hidden="true" id="modalConfirmDelete">
+    <div class="modal-dialog modal-lg" style="width: 600px">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">
+            <span aria-hidden="true">×</span>
+          </button>
+          <h5 class="modal-title" id="modalNoiDungTitle"><b>Xóa bản ghi</b></h5>
+        </div>
+        <div class="modal-body">
+          <p>Bạn có chắc chắn muốn xóa bản ghi? </p><p id=""></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" onclick="return deleteRecord();" data-dismiss="modal"><i class="fa fa-trash"></i>&nbsp;Xác nhận</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Hủy</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

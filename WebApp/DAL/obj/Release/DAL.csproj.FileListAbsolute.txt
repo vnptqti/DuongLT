@@ -1,0 +1,38 @@
+D:\11.VNPT\ADuong\VoiceRecorderServer\DAL\bin\Release\DAL.dll.config
+D:\11.VNPT\ADuong\VoiceRecorderServer\DAL\bin\Release\DAL.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\DAL\bin\Release\DAL.pdb
+D:\11.VNPT\ADuong\VoiceRecorderServer\DAL\bin\Release\EntityFramework.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\DAL\bin\Release\EntityFramework.xml
+D:\11.VNPT\ADuong\VoiceRecorderServer\DAL\obj\Release\DAL.csprojAssemblyReference.cache
+D:\11.VNPT\ADuong\VoiceRecorderServer\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+D:\11.VNPT\ADuong\VoiceRecorderServer\DAL\obj\Release\DAL.csproj.CopyComplete
+D:\11.VNPT\ADuong\VoiceRecorderServer\DAL\obj\Release\DAL.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\DAL\obj\Release\DAL.pdb
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\DAL\bin\Release\DAL.dll.config
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\DAL\bin\Release\DAL.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\DAL\bin\Release\DAL.pdb
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\DAL\bin\Release\EntityFramework.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\DAL\bin\Release\EntityFramework.xml
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\DAL\obj\Release\DAL.csprojAssemblyReference.cache
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\DAL\obj\Release\DAL.csproj.CopyComplete
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\DAL\obj\Release\DAL.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\DAL\obj\Release\DAL.pdb
+D:\11.VNPT\ADuong\00.SVN\DAL\bin\Release\DAL.dll.config
+D:\11.VNPT\ADuong\00.SVN\DAL\bin\Release\DAL.dll
+D:\11.VNPT\ADuong\00.SVN\DAL\bin\Release\DAL.pdb
+D:\11.VNPT\ADuong\00.SVN\DAL\bin\Release\EntityFramework.dll
+D:\11.VNPT\ADuong\00.SVN\DAL\bin\Release\EntityFramework.xml
+D:\11.VNPT\ADuong\00.SVN\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+D:\11.VNPT\ADuong\00.SVN\DAL\obj\Release\DAL.csproj.CopyComplete
+D:\11.VNPT\ADuong\00.SVN\DAL\obj\Release\DAL.dll
+D:\11.VNPT\ADuong\00.SVN\DAL\obj\Release\DAL.pdb
+D:\01.VNPT\01.Document\A Duong\00.SVN\DAL\bin\Release\DAL.dll.config
+D:\01.VNPT\01.Document\A Duong\00.SVN\DAL\bin\Release\DAL.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\DAL\bin\Release\DAL.pdb
+D:\01.VNPT\01.Document\A Duong\00.SVN\DAL\bin\Release\EntityFramework.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\DAL\bin\Release\EntityFramework.xml
+D:\01.VNPT\01.Document\A Duong\00.SVN\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+D:\01.VNPT\01.Document\A Duong\00.SVN\DAL\obj\Release\DAL.csproj.CopyComplete
+D:\01.VNPT\01.Document\A Duong\00.SVN\DAL\obj\Release\DAL.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\DAL\obj\Release\DAL.pdb

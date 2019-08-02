@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VoiceRecorderModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="TB_AGE_GROUP">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AGE_GROUP_ID" Type="Int32" Nullable="false" />
+    <Property Name="AGE_GROUP_DESCRIPTION" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TB_AREA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AREA_ID" Type="Int32" Nullable="false" />
+    <Property Name="AREA_DESCRIPTION" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TB_SCRIPT">
+    <Key>
+      <PropertyRef Name="SCRIPT_ID" />
+    </Key>
+    <Property Name="SCRIPT_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SCRIPT_DESCRITPTION" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TB_SEX">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SEX_ID" Type="Int32" Nullable="false" />
+    <Property Name="SEX_DESCRIPTION" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TB_USER">
+    <Key>
+      <PropertyRef Name="USER_ID" />
+    </Key>
+    <Property Name="USER_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="USER_NAME" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="EMAIL" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="PASSWORD" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="VoiceRecorderEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TB_AGE_GROUP" EntityType="Self.TB_AGE_GROUP" />
+    <EntitySet Name="TB_AREA" EntityType="Self.TB_AREA" />
+    <EntitySet Name="TB_SCRIPT" EntityType="Self.TB_SCRIPT" />
+    <EntitySet Name="TB_SEX" EntityType="Self.TB_SEX" />
+    <EntitySet Name="TB_USER" EntityType="Self.TB_USER" />
+    <EntitySet Name="V_File" EntityType="VoiceRecorderModel.V_File" />
+    <EntitySet Name="TB_USER_SCRIPT" EntityType="VoiceRecorderModel.TB_USER_SCRIPT" />
+    <EntitySet Name="TB_FILE" EntityType="VoiceRecorderModel.TB_FILE" />
+  </EntityContainer>
+  <EntityType Name="V_File">
+    <Key>
+      <PropertyRef Name="FILE_ID" />
+      <PropertyRef Name="FILE_LOCATION" />
+      <PropertyRef Name="FILE_NAME" />
+    </Key>
+    <Property Name="FILE_ID" Type="Int32" Nullable="false" />
+    <Property Name="USER_NAME" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="AGE_GROUP_DESCRIPTION" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AREA_DESCRIPTION" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="SCRIPT_DESCRITPTION" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SCRIPT_ID" Type="Int32" />
+    <Property Name="SEX_DESCRIPTION" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="FILE_LOCATION" Type="String" Nullable="false" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="FILE_NAME" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TB_USER_SCRIPT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="USER_NAME" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SCRIPT_ID" Type="Int32" Nullable="false" />
+    <Property Name="IS_READ" Type="Int32" />
+    <Property Name="STT" Type="Int32" />
+    <Property Name="SCRIPT_DESCRITPTION" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="VOTE_GOOD" Type="Int32" />
+    <Property Name="VOTE_BAD" Type="Int32" />
+    <Property Name="SNR" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TB_FILE">
+    <Key>
+      <PropertyRef Name="FILE_ID" />
+    </Key>
+    <Property Name="FILE_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FILE_NAME" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="FILE_LOCATION" Type="String" Nullable="false" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="SCRIPT_ID" Type="Int32" Nullable="false" />
+    <Property Name="USER_ID" Type="Int32" Nullable="false" />
+    <Property Name="AGE_GROUP_ID" Type="Int32" Nullable="false" />
+    <Property Name="AREA_ID" Type="Int32" Nullable="false" />
+    <Property Name="SEX_ID" Type="Int32" Nullable="false" />
+    <Property Name="EMAIL" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="VOTE_GOOD" Type="Int32" />
+    <Property Name="VOTE_BAD" Type="Int32" />
+    <Property Name="SNR" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

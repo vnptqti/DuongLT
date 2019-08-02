@@ -1,0 +1,210 @@
+﻿@{
+  ViewBag.Title = "Voice Recorder";
+}
+<link href="~/Content/Home.css" rel="stylesheet" />
+
+@Styles.Render("~/Content/Home.css")
+@Styles.Render("~/Content/Home.css")
+
+@section Scripts {
+  @Scripts.Render("~/Scripts/jquery-3.3.1.min.js")
+  @Scripts.Render("~/Scripts/bootstrap.min.js")
+  <script>
+    $(document).ready(function () {
+
+      WriteDropdown($('#drArea'), 1, "../../api/Home/GetAreaDropdown", "");
+      WriteDropdown($('#drAge'), 1, "../../api/Home/GetAgeDropdown", "");
+      WriteDropdown($('#drSex'), 1, "../../api/Home/GetSexDropdown", "");
+      GetRandomScript();
+      $('#controls3').hide();
+    });
+
+    function GetRandomScript() {
+      $.ajax({
+        type: "GET",
+        contentType: "application/json; charset=utf-8",
+        url: "../../api/Home/GetRandomScript",
+        dataType: "json",
+        async: false,
+        success: function (result) {
+          $('#lbScriptDes').text(result.SCRIPT_DESCRITPTION);
+          $('#hidScriptDes').val(result.SCRIPT_DESCRITPTION);
+          $('#hidScriptId').val(result.SCRIPT_ID);
+        },
+        error: function (result) {
+        }
+      });
+    }
+
+    function showModalUpload(){
+      $('#MessageModal').modal('hide');
+      $('#modalMsg').css('display', 'none');
+      $('#UploadInfoModal').modal('show');
+    }
+
+    function GetModel() {
+      var model = {};
+      model.ScriptId = $('#hidScriptId').val();
+      model.ScriptDes = $('#hidScriptDes').val();
+      model.Email = $('#txtEmail').val();
+      model.AreaId = $('#drArea :selected').val();
+      model.AgeId = $('#drAge :selected').val();
+      model.SexId = $('#drSex :selected').val();
+      return model;
+    }
+
+    function WriteDropdown(drCB, selectid, duongdan, str) {
+      drCB.empty();
+      $.ajax({
+        type: "GET",
+        contentType: "application/json; charset=utf-8",
+        url: duongdan,
+        dataType: "json",
+        async: true,
+        success: function (Result) {
+          Result = Result
+          //drCB.append($("<option></option>").val(1).html(str));
+          $.each(Result, function (key, value) {
+            drCB.append("<option value='" + value.Id + "'>" + value.Name + "</option>");
+          });
+
+          drCB.val(selectid);
+        },
+        error: function (Result) {
+        }
+      });
+    }
+
+    function refresh() {
+      $('#recordingsList').html('');
+      $('#mainMsg').hide();
+      GetRandomScript();
+      $('#controls3').hide();
+      $('#MessageModal').modal('hide');
+        recordCount = 0;
+        $('#stopButton').attr('disabled', true);
+    }
+  </script>
+}
+
+<div class="row form-group panel-body">
+  <div class="col-md-12">
+    <div id="mainMsg" style="display: none;" class="alert alert-info alert-dismissable">
+      <button type="button" class="close" onclick="$('#mainMsg').hide(); return false;" aria-hidden="true">×</button>
+      <span id="mainMsgContent">!</span>
+    </div>
+  </div>
+  <div class="col-md-12">
+    <label class="lbGhiChu">(Nhấn Bắt đầu và ghi âm 3 lần đoạn văn bản dưới đây)</label>
+  </div>
+  <div class="col-md-12">
+    <label id="lbScriptDes"></label>
+  </div>
+  <div class="col-md-12">
+    <div id="controls">
+      <div id="controls2">
+
+        <button class="btn btn-success" id="recordButton"><i class="glyphicon glyphicon-play"></i>&nbsp;Bắt đầu</button>
+        <button class="btn btn-danger" id="stopButton" disabled><i class="glyphicon glyphicon-stop"></i>&nbsp;Dừng</button>
+        <button class="btn btn-default" onclick="return refresh();" id="reloadButton"><i class="glyphicon glyphicon-refresh"></i>&nbsp;Làm mới</button>
+      </div>
+
+      <div id="controls3" style="display:none;">
+        <img src="~/Content/sound.gif" />
+      </div>
+
+      <ol id="recordingsList"></ol>
+      <!-- inserting these scripts at the end to be able to use all the elements in the DOM -->
+      <script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+
+      <script src="~/Scripts/App/Home.js"></script>
+    </div>
+  </div>
+</div>
+<div>
+  <input type="hidden" id="hidScriptId" />
+  <input type="hidden" id="hidScriptDes" />
+</div>
+<!-- Modal -->
+<div id="UploadInfoModal" class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" id="">Thông tin người dùng</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row form-group">
+          <div id="modalMsg" style="display: none;" class="alert alert-info alert-dismissable">
+            <button type="button" class="close" onclick="$('#modalMsg').hide(); return false;" aria-hidden="true">×</button>
+            <span id="modalMsgContent">!</span>
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="form-group col-md-12 col-sm-12 col-xs-12">
+            <label class="col-md-4 control-label">Email<span class="require">&nbsp;*</span></label>
+            <div class="col-md-8">
+              <input class="form-control" type="text" id="txtEmail" />
+            </div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="form-group col-md-12 col-sm-12 col-xs-12">
+            <label class="col-md-4 control-label">Vùng miền<span class="require">&nbsp;*</span></label>
+            <div class="col-md-8">
+              <select class="form-control" name="drArea" id="drArea"></select>
+            </div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="form-group col-md-12 col-sm-12 col-xs-12">
+            <label class="col-md-4 control-label">Tuổi<span class="require">&nbsp;*</span></label>
+            <div class="col-md-8">
+              <select class="form-control" name="drAge" id="drAge"></select>
+            </div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="form-group col-md-12 col-sm-12 col-xs-12">
+            <label class="col-md-4 control-label">Giới tính<span class="require">&nbsp;*</span></label>
+            <div class="col-md-8">
+              <select class="form-control" name="drSex" id="drSex"></select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" onclick="SendToServer();" class="btn btn-primary">Gửi</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+<div id="MessageModal" class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" id="">Thông báo</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row form-group">
+          <div id="modalMsg" style="display: none;" class="alert alert-info alert-dismissable">
+            <button type="button" class="close" onclick="$('#modalMsg').hide(); return false;" aria-hidden="true">×</button>
+            <span id="modalMsgContent">!</span>
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="form-group col-md-12 col-sm-12 col-xs-12">
+            <label class="col-md-12 control-label">Mỗi nội dung chỉ ghi âm 3 lần. Hãy Upload trước khi tiếp tục. Hoặc làm mới nội dung ghi âm.</label>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" onclick="showModalUpload();" class="btn btn-primary">Upload</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal" onclick="refresh();">Làm mới</button>
+      </div>
+    </div>
+  </div>
+</div>

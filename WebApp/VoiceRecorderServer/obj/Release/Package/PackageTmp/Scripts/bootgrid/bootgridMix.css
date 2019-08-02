@@ -1,0 +1,47 @@
+﻿.grid th {
+    background-color: #0984e3 !important;
+    vertical-align: middle !important;
+    color: white;
+}
+
+    .grid th:hover {
+        background-color: #0984e3 !important;
+    }
+    /*.d th:hover {
+      background-color: #337ab7;
+    }
+
+    #gridtonghop th:hover {
+      background-color: #337ab7;
+    }*/
+
+    .grid th a {
+      color: white !important;
+    }
+
+    #grid-footer a.button {
+      cursor: pointer;
+    }
+
+    #grid-header .actionBar {
+      border: none;
+      padding: 0px !important;
+    }
+
+    .actionBar {
+      margin: 0px;
+    }
+
+    .infos {
+      padding-top: 10px;
+    }
+
+    .bootgrid-table th > .column-header-anchor > .text {
+      margin: 0px !important;
+      white-space:normal !important; 
+    }
+
+    .bootgrid-table td{
+      margin: 0px !important;
+      white-space:normal !important; 
+    }

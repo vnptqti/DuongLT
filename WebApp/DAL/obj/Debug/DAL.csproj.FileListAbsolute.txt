@@ -1,0 +1,36 @@
+D:\11.VNPT\ADuong\VoiceRecorderServer\DAL\bin\Debug\DAL.dll.config
+D:\11.VNPT\ADuong\VoiceRecorderServer\DAL\bin\Debug\DAL.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\DAL\bin\Debug\DAL.pdb
+D:\11.VNPT\ADuong\VoiceRecorderServer\DAL\bin\Debug\EntityFramework.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\DAL\bin\Debug\EntityFramework.xml
+D:\11.VNPT\ADuong\VoiceRecorderServer\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\11.VNPT\ADuong\VoiceRecorderServer\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\11.VNPT\ADuong\VoiceRecorderServer\DAL\obj\Debug\DAL.dll
+D:\11.VNPT\ADuong\VoiceRecorderServer\DAL\obj\Debug\DAL.pdb
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\DAL\bin\Debug\DAL.dll.config
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\DAL\bin\Debug\DAL.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\DAL\bin\Debug\DAL.pdb
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\DAL\bin\Debug\EntityFramework.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\DAL\bin\Debug\EntityFramework.xml
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\DAL\obj\Debug\DAL.dll
+D:\01.VNPT\01.Document\A Duong\Project\VoiceRecorderServer\VoiceRecorderServer\DAL\obj\Debug\DAL.pdb
+D:\11.VNPT\ADuong\00.SVN\DAL\bin\Debug\DAL.dll.config
+D:\11.VNPT\ADuong\00.SVN\DAL\bin\Debug\DAL.dll
+D:\11.VNPT\ADuong\00.SVN\DAL\bin\Debug\DAL.pdb
+D:\11.VNPT\ADuong\00.SVN\DAL\bin\Debug\EntityFramework.dll
+D:\11.VNPT\ADuong\00.SVN\DAL\bin\Debug\EntityFramework.xml
+D:\11.VNPT\ADuong\00.SVN\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\11.VNPT\ADuong\00.SVN\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\11.VNPT\ADuong\00.SVN\DAL\obj\Debug\DAL.dll
+D:\11.VNPT\ADuong\00.SVN\DAL\obj\Debug\DAL.pdb
+D:\01.VNPT\01.Document\A Duong\00.SVN\DAL\bin\Debug\DAL.dll.config
+D:\01.VNPT\01.Document\A Duong\00.SVN\DAL\bin\Debug\DAL.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\DAL\bin\Debug\DAL.pdb
+D:\01.VNPT\01.Document\A Duong\00.SVN\DAL\bin\Debug\EntityFramework.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\DAL\bin\Debug\EntityFramework.xml
+D:\01.VNPT\01.Document\A Duong\00.SVN\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\01.VNPT\01.Document\A Duong\00.SVN\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\01.VNPT\01.Document\A Duong\00.SVN\DAL\obj\Debug\DAL.dll
+D:\01.VNPT\01.Document\A Duong\00.SVN\DAL\obj\Debug\DAL.pdb
