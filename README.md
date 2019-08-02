@@ -32,3 +32,13 @@
       ```
       $ python manage.py runserver 192.168.43.55:8080
       ```
+## 3. Cài đặt môi trường React Native
+  ###### 3.1 Cài đặt Nodejs
+    - Donwload vài cài đặt bản mới nhất cả Nodejs tại: https://nodejs.org/en/download/
+  ###### 3.2 Cài đặt Android Studio
+    - Download vài cài đặt bản mới nhất của Androdi studio tại : https://developer.android.com/studio
+  ###### 3.3 Cài đặt Genymotion để làm máy ảo Android
+    - Download genymotion bản Persional Edtion tại: https://www.genymotion.com/fun-zone/
+    - Lưu ý chọn bản đi kèm với Virtual Box.
+   
+  
