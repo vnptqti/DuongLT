@@ -13,12 +13,12 @@
     
   2.2 Cài đặt Django REST framework
    - Sau khi cài đặt thành công Python, mở cửa sổ CMD và chạy lần lượt các lệnh sau để cài đặt Django
-```
+    ```
     $ pip install django
     $ pip install djangorestframework 
     $ pip install markdown
     $ pip install django-filter
-```
+    ```
    - Sau khi cài đặt thành công Django, trỏ đến thư mục của project SNRServer và chạy lệnh sau để start server
       ```
       $ python manage.py runserver
