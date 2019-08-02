@@ -40,5 +40,14 @@
   ###### 3.3 Cài đặt Genymotion để làm máy ảo Android
     - Download genymotion bản Persional Edtion tại: https://www.genymotion.com/fun-zone/
     - Lưu ý chọn bản đi kèm với Virtual Box.
-   
+  ###### 3.4 Cài đặt Visual Code sử dụng làm IDE.
+    - Download bản mới nhất của Visual Code tại : https://code.visualstudio.com/download
+  ###### 3.5 Build app
+   - Sau khi đã cài đặt theo thứ tự các công cụ ở trên thực hiện các bước sau:
+   - Mở Visual code và open thư mục MobileApp
+   - Ấn tổ hợp phím Ctrl + ~ để mở cửa sổ terminal trong Visual code
+   - Tiến hành chạy lệnh sau để cài đặt các package modules.
+      ```
+      npm install
+      ```
   
