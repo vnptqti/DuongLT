@@ -46,21 +46,6 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="V_File">
-      <EntityTypeMapping TypeName="VoiceRecorderModel.V_File">
-        <MappingFragment StoreEntitySet="V_File">
-          <ScalarProperty Name="FILE_NAME" ColumnName="FILE_NAME" />
-          <ScalarProperty Name="FILE_LOCATION" ColumnName="FILE_LOCATION" />
-          <ScalarProperty Name="SEX_DESCRIPTION" ColumnName="SEX_DESCRIPTION" />
-          <ScalarProperty Name="SCRIPT_ID" ColumnName="SCRIPT_ID" />
-          <ScalarProperty Name="SCRIPT_DESCRITPTION" ColumnName="SCRIPT_DESCRITPTION" />
-          <ScalarProperty Name="AREA_DESCRIPTION" ColumnName="AREA_DESCRIPTION" />
-          <ScalarProperty Name="AGE_GROUP_DESCRIPTION" ColumnName="AGE_GROUP_DESCRIPTION" />
-          <ScalarProperty Name="USER_NAME" ColumnName="USER_NAME" />
-          <ScalarProperty Name="FILE_ID" ColumnName="FILE_ID" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="TB_USER_SCRIPT">
       <EntityTypeMapping TypeName="VoiceRecorderModel.TB_USER_SCRIPT">
         <MappingFragment StoreEntitySet="TB_USER_SCRIPT">
@@ -90,6 +75,22 @@
           <ScalarProperty Name="SCRIPT_ID" ColumnName="SCRIPT_ID" />
           <ScalarProperty Name="FILE_LOCATION" ColumnName="FILE_LOCATION" />
           <ScalarProperty Name="FILE_NAME" ColumnName="FILE_NAME" />
+          <ScalarProperty Name="FILE_ID" ColumnName="FILE_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="V_File">
+      <EntityTypeMapping TypeName="VoiceRecorderModel.V_File">
+        <MappingFragment StoreEntitySet="V_File">
+          <ScalarProperty Name="SNR" ColumnName="SNR" />
+          <ScalarProperty Name="FILE_NAME" ColumnName="FILE_NAME" />
+          <ScalarProperty Name="FILE_LOCATION" ColumnName="FILE_LOCATION" />
+          <ScalarProperty Name="SEX_DESCRIPTION" ColumnName="SEX_DESCRIPTION" />
+          <ScalarProperty Name="SCRIPT_ID" ColumnName="SCRIPT_ID" />
+          <ScalarProperty Name="SCRIPT_DESCRITPTION" ColumnName="SCRIPT_DESCRITPTION" />
+          <ScalarProperty Name="AREA_DESCRIPTION" ColumnName="AREA_DESCRIPTION" />
+          <ScalarProperty Name="AGE_GROUP_DESCRIPTION" ColumnName="AGE_GROUP_DESCRIPTION" />
+          <ScalarProperty Name="USER_NAME" ColumnName="USER_NAME" />
           <ScalarProperty Name="FILE_ID" ColumnName="FILE_ID" />
         </MappingFragment>
       </EntityTypeMapping>

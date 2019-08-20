@@ -107,6 +107,7 @@ class DanhGiaComponent extends Component {
             position: "top",
             duration: 4000
           });
+          this.getRandomScript();
         } else {
           Toast.show({
             text: "Gửi đánh giá thất bại!",

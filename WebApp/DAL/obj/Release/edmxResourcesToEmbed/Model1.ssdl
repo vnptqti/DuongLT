@@ -88,6 +88,7 @@ warning 6002: The table/view 'VoiceRecorder.dbo.V_File' does not have a primary 
     <Property Name="SEX_DESCRIPTION" Type="nchar" MaxLength="10" />
     <Property Name="FILE_LOCATION" Type="nvarchar" MaxLength="300" Nullable="false" />
     <Property Name="FILE_NAME" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="SNR" Type="nvarchar" MaxLength="50" />
   </EntityType>
   <EntityContainer Name="VoiceRecorderModelStoreContainer">
     <EntitySet Name="TB_AGE_GROUP" EntityType="Self.TB_AGE_GROUP" Schema="dbo" store:Type="Tables" />
@@ -107,7 +108,8 @@ warning 6002: The table/view 'VoiceRecorder.dbo.V_File' does not have a primary 
 [V_File].[SCRIPT_ID] AS [SCRIPT_ID], 
 [V_File].[SEX_DESCRIPTION] AS [SEX_DESCRIPTION], 
 [V_File].[FILE_LOCATION] AS [FILE_LOCATION], 
-[V_File].[FILE_NAME] AS [FILE_NAME]
+[V_File].[FILE_NAME] AS [FILE_NAME], 
+[V_File].[SNR] AS [SNR]
 FROM [dbo].[V_File] AS [V_File]</DefiningQuery>
     </EntitySet>
   </EntityContainer>

@@ -93,6 +93,7 @@ warning 6002: The table/view 'VoiceRecorder.dbo.V_File' does not have a primary 
           <Property Name="SEX_DESCRIPTION" Type="nchar" MaxLength="10" />
           <Property Name="FILE_LOCATION" Type="nvarchar" MaxLength="300" Nullable="false" />
           <Property Name="FILE_NAME" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="SNR" Type="nvarchar" MaxLength="50" />
         </EntityType>
         <EntityContainer Name="VoiceRecorderModelStoreContainer">
           <EntitySet Name="TB_AGE_GROUP" EntityType="Self.TB_AGE_GROUP" Schema="dbo" store:Type="Tables" />
@@ -112,7 +113,8 @@ warning 6002: The table/view 'VoiceRecorder.dbo.V_File' does not have a primary 
 [V_File].[SCRIPT_ID] AS [SCRIPT_ID], 
 [V_File].[SEX_DESCRIPTION] AS [SEX_DESCRIPTION], 
 [V_File].[FILE_LOCATION] AS [FILE_LOCATION], 
-[V_File].[FILE_NAME] AS [FILE_NAME]
+[V_File].[FILE_NAME] AS [FILE_NAME], 
+[V_File].[SNR] AS [SNR]
 FROM [dbo].[V_File] AS [V_File]</DefiningQuery>
           </EntitySet>
         </EntityContainer>
@@ -166,26 +168,10 @@ FROM [dbo].[V_File] AS [V_File]</DefiningQuery>
           <EntitySet Name="TB_SCRIPT" EntityType="Self.TB_SCRIPT" />
           <EntitySet Name="TB_SEX" EntityType="Self.TB_SEX" />
           <EntitySet Name="TB_USER" EntityType="Self.TB_USER" />
-          <EntitySet Name="V_File" EntityType="VoiceRecorderModel.V_File" />
           <EntitySet Name="TB_USER_SCRIPT" EntityType="VoiceRecorderModel.TB_USER_SCRIPT" />
           <EntitySet Name="TB_FILE" EntityType="VoiceRecorderModel.TB_FILE" />
+          <EntitySet Name="V_File" EntityType="VoiceRecorderModel.V_File" />
         </EntityContainer>
-        <EntityType Name="V_File">
-          <Key>
-            <PropertyRef Name="FILE_ID" />
-            <PropertyRef Name="FILE_LOCATION" />
-            <PropertyRef Name="FILE_NAME" />
-          </Key>
-          <Property Name="FILE_ID" Type="Int32" Nullable="false" />
-          <Property Name="USER_NAME" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
-          <Property Name="AGE_GROUP_DESCRIPTION" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="AREA_DESCRIPTION" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
-          <Property Name="SCRIPT_DESCRITPTION" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
-          <Property Name="SCRIPT_ID" Type="Int32" />
-          <Property Name="SEX_DESCRIPTION" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
-          <Property Name="FILE_LOCATION" Type="String" Nullable="false" MaxLength="300" FixedLength="false" Unicode="true" />
-          <Property Name="FILE_NAME" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
-        </EntityType>
         <EntityType Name="TB_USER_SCRIPT">
           <Key>
             <PropertyRef Name="ID" />
@@ -215,6 +201,23 @@ FROM [dbo].[V_File] AS [V_File]</DefiningQuery>
           <Property Name="EMAIL" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="VOTE_GOOD" Type="Int32" />
           <Property Name="VOTE_BAD" Type="Int32" />
+          <Property Name="SNR" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="V_File">
+          <Key>
+            <PropertyRef Name="FILE_ID" />
+            <PropertyRef Name="FILE_LOCATION" />
+            <PropertyRef Name="FILE_NAME" />
+          </Key>
+          <Property Name="FILE_ID" Type="Int32" Nullable="false" />
+          <Property Name="USER_NAME" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="AGE_GROUP_DESCRIPTION" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="AREA_DESCRIPTION" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Name="SCRIPT_DESCRITPTION" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="SCRIPT_ID" Type="Int32" />
+          <Property Name="SEX_DESCRIPTION" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="FILE_LOCATION" Type="String" Nullable="false" MaxLength="300" FixedLength="false" Unicode="true" />
+          <Property Name="FILE_NAME" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
           <Property Name="SNR" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
         </EntityType>
       </Schema>
@@ -268,21 +271,6 @@ FROM [dbo].[V_File] AS [V_File]</DefiningQuery>
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="V_File">
-            <EntityTypeMapping TypeName="VoiceRecorderModel.V_File">
-              <MappingFragment StoreEntitySet="V_File">
-                <ScalarProperty Name="FILE_NAME" ColumnName="FILE_NAME" />
-                <ScalarProperty Name="FILE_LOCATION" ColumnName="FILE_LOCATION" />
-                <ScalarProperty Name="SEX_DESCRIPTION" ColumnName="SEX_DESCRIPTION" />
-                <ScalarProperty Name="SCRIPT_ID" ColumnName="SCRIPT_ID" />
-                <ScalarProperty Name="SCRIPT_DESCRITPTION" ColumnName="SCRIPT_DESCRITPTION" />
-                <ScalarProperty Name="AREA_DESCRIPTION" ColumnName="AREA_DESCRIPTION" />
-                <ScalarProperty Name="AGE_GROUP_DESCRIPTION" ColumnName="AGE_GROUP_DESCRIPTION" />
-                <ScalarProperty Name="USER_NAME" ColumnName="USER_NAME" />
-                <ScalarProperty Name="FILE_ID" ColumnName="FILE_ID" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
           <EntitySetMapping Name="TB_USER_SCRIPT">
             <EntityTypeMapping TypeName="VoiceRecorderModel.TB_USER_SCRIPT">
               <MappingFragment StoreEntitySet="TB_USER_SCRIPT">
@@ -312,6 +300,22 @@ FROM [dbo].[V_File] AS [V_File]</DefiningQuery>
                 <ScalarProperty Name="SCRIPT_ID" ColumnName="SCRIPT_ID" />
                 <ScalarProperty Name="FILE_LOCATION" ColumnName="FILE_LOCATION" />
                 <ScalarProperty Name="FILE_NAME" ColumnName="FILE_NAME" />
+                <ScalarProperty Name="FILE_ID" ColumnName="FILE_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="V_File">
+            <EntityTypeMapping TypeName="VoiceRecorderModel.V_File">
+              <MappingFragment StoreEntitySet="V_File">
+                <ScalarProperty Name="SNR" ColumnName="SNR" />
+                <ScalarProperty Name="FILE_NAME" ColumnName="FILE_NAME" />
+                <ScalarProperty Name="FILE_LOCATION" ColumnName="FILE_LOCATION" />
+                <ScalarProperty Name="SEX_DESCRIPTION" ColumnName="SEX_DESCRIPTION" />
+                <ScalarProperty Name="SCRIPT_ID" ColumnName="SCRIPT_ID" />
+                <ScalarProperty Name="SCRIPT_DESCRITPTION" ColumnName="SCRIPT_DESCRITPTION" />
+                <ScalarProperty Name="AREA_DESCRIPTION" ColumnName="AREA_DESCRIPTION" />
+                <ScalarProperty Name="AGE_GROUP_DESCRIPTION" ColumnName="AGE_GROUP_DESCRIPTION" />
+                <ScalarProperty Name="USER_NAME" ColumnName="USER_NAME" />
                 <ScalarProperty Name="FILE_ID" ColumnName="FILE_ID" />
               </MappingFragment>
             </EntityTypeMapping>

@@ -30,8 +30,8 @@ namespace DAL
         public DbSet<TB_SCRIPT> TB_SCRIPT { get; set; }
         public DbSet<TB_SEX> TB_SEX { get; set; }
         public DbSet<TB_USER> TB_USER { get; set; }
-        public DbSet<V_File> V_File { get; set; }
         public DbSet<TB_USER_SCRIPT> TB_USER_SCRIPT { get; set; }
         public DbSet<TB_FILE> TB_FILE { get; set; }
+        public DbSet<V_File> V_File { get; set; }
     }
 }

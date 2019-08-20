@@ -1,4 +1,4 @@
-#Fri Jul 19 15:58:33 ICT 2019
-base.0=D\:\\01.VNPT\\01.Document\\A Duong\\00.SVN\\VoiceRecordApp\\android\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+#Fri Aug 16 10:58:20 ICT 2019
+base.0=E\:\\Mobile\\UngdungGhiAm\\android\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
 path.0=classes.dex
 renamed.0=classes.dex

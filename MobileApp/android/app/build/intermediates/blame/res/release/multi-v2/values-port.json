@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\01.VNPT\\01.Document\\A Duong\\00.SVN\\VoiceRecordApp\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-port\\values-port.xml",
+            "outputFile": "E:\\Mobile\\UngdungGhiAm\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\LNC\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ae98deb73666ebf20b2fd05a1d1c0190\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\Thien\\.gradle\\caches\\transforms-2\\files-2.1\\df5246042c6a5b0e11180c17c2217d95\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

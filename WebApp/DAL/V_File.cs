@@ -23,5 +23,6 @@ namespace DAL
         public string SEX_DESCRIPTION { get; set; }
         public string FILE_LOCATION { get; set; }
         public string FILE_NAME { get; set; }
+        public string SNR { get; set; }
     }
 }

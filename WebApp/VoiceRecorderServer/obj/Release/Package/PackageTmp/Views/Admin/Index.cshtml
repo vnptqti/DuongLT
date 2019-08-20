@@ -66,6 +66,12 @@
             "PLAY": function (column, row) {
               return "<audio controls preload='none'><source src='@Url.Action("PlayFile")?fileName=" + row.FILE_NAME + "' type='audio/wav'></audio>";
             },
+            "SNR": function (column, row) {
+              if (row.SNR === null || row.SNR === '') {
+                return "Chưa xác định";
+              }
+              return "<span style='color:#286090'><b>" + row.SNR +"</b></span>"
+            },
             "CONG_CU": function (column, row) {
               if (globalScriptId == row.SCRIPT_ID) {
 
@@ -185,12 +191,13 @@
           <thead>
             <tr>
               <th data-column-id="STT" data-formatter="STT" data-header-align="center" data-align="center" data-width="50px">STT</th>
-              <th data-column-id="USER_NAME" data-formatter="USER_NAME" data-width="180px">Email</th>
-              <th data-column-id="AGE_GROUP_DESCRIPTION" data-align="center" data-header-align="center" data-width="60px" data-formatter="AGE_GROUP_DESCRIPTION" data-width="100px">Tuổi</th>
+              <th data-column-id="USER_NAME" data-formatter="USER_NAME" data-width="170px">Email</th>
+              <th data-column-id="AGE_GROUP_DESCRIPTION" data-align="center" data-header-align="center" data-width="60px" data-formatter="AGE_GROUP_DESCRIPTION" data-width="90px">Tuổi</th>
               <th data-column-id="SEX_DESCRIPTION" data-align="center" data-header-align="center" data-width="80px" data-formatter="SEX_DESCRIPTION">Giới tính</th>
               <th data-column-id="AREA_DESCRIPTION" data-align="center" data-formatter="AREA_DESCRIPTION" data-width="110px" data-header-align="center">Vùng miền</th>
-              <th data-column-id="SCRIPT_DESCRITPTION" data-formatter="SCRIPT_DESCRITPTION" data-width="300px">Script</th>
+              <th data-column-id="SCRIPT_DESCRITPTION" data-formatter="SCRIPT_DESCRITPTION" data-width="290px">Script</th>
               <th data-column-id="PLAY" data-formatter="PLAY" data-align="center" data-header-align="center" data-css-class="hidden-xs" data-header-css-class="hidden-xs hidden-sm" data-width="300px">Play</th>
+              <th data-column-id="SNR" data-formatter="SNR" data-align="center" data-header-align="center" data-css-class="hidden-xs" data-header-css-class="hidden-xs hidden-sm" data-width="140px">SNR</th>
               <th data-column-id="CONG_CU" data-formatter="CONG_CU" data-align="center" data-header-align="center" data-css-class="hidden-xs" data-header-css-class="hidden-xs hidden-sm" data-width="90px">Công cụ</th>
             </tr>
           </thead>

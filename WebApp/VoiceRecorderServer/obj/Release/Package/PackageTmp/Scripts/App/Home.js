@@ -22,7 +22,7 @@ stopButton.addEventListener("click", stopRecording);
 function startRecording() {
     $('#stopButton').attr('disabled', false);
   recordCount += 1;
-  if (recordCount == 4) {
+  if (recordCount === 4) {
     
     $('#MessageModal').modal('show');
     return;
@@ -108,7 +108,7 @@ function pauseRecording() {
 
 function stopRecording() {
     $('#stopButton').attr('disabled', true);
-    if (recordCount == 4) {
+    if (recordCount === 4) {
         return;
     }
   //console.log("stopButton clicked");
@@ -132,13 +132,13 @@ function stopRecording() {
 }
 
 function createDownloadLink(blob) {
-  if (recordCount == 1) {
+  if (recordCount === 1) {
     globalBlob.File1 = blob;
   }
-  if (recordCount == 2) {
+  if (recordCount === 2) {
     globalBlob.File2 = blob;
   }
-  if (recordCount == 3) {
+  if (recordCount === 3) {
     globalBlob.File3 = blob;
   }
   var url = URL.createObjectURL(blob);
@@ -168,7 +168,7 @@ function createDownloadLink(blob) {
   // li.appendChild(link);
 
   //upload link
-  if (recordCount == 3) {
+  if (recordCount === 3) {
     var upload = document.createElement('a');
     upload.href = "#";
     upload.innerHTML = "<button id='btnOpenModal' type='button' class='btn btn-primary'><i class='glyphicon glyphicon-upload'></i>&nbsp;Tải lên</button>";
@@ -192,7 +192,7 @@ function SendToServer() {
     if (this.readyState === 4) {
       var rs = e.target.responseText;
       console.log("Server returned: ", e.target.responseText);
-      if (rs != '"ok"') {
+      if (rs !== '"ok"') {
         $('#modalMsg').css('display', 'block');
         $('#modalMsg').removeClass("alert-error");
         $('#modalMsg').removeClass("alert-info");

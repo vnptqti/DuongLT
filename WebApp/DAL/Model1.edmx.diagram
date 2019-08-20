@@ -10,9 +10,9 @@
         <EntityTypeShape EntityType="VoiceRecorderModel.TB_SCRIPT" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
         <EntityTypeShape EntityType="VoiceRecorderModel.TB_SEX" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="VoiceRecorderModel.TB_USER" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="VoiceRecorderModel.V_File" Width="1.5" PointX="1.25" PointY="5.25" />
         <EntityTypeShape EntityType="VoiceRecorderModel.TB_USER_SCRIPT" Width="1.5" PointX="5.375" PointY="6.75" />
         <EntityTypeShape EntityType="VoiceRecorderModel.TB_FILE" Width="1.5" PointX="7.375" PointY="0.75" />
+        <EntityTypeShape EntityType="VoiceRecorderModel.V_File" Width="1.5" PointX="0.75" PointY="6.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

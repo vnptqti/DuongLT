@@ -411,7 +411,7 @@ class MainComponent extends Component {
 
     //upload to check snr
     try {
-      fetch("http://10.46.31.130:8080/upload/", {
+      fetch(BaseConfig.SNR_CHECK_URL, {
         method: "POST",
         headers: {
           "Content-Type": "multipart/form-data"
